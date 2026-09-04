@@ -4,7 +4,7 @@
 const profiles = {
   muskan: {
     name: "Muskan Isarani",
-    role: "Full Stack Developer | Software Engineer",
+    role: "Full Stack Developer",
     summary: "B.Tech Information Technology student with hands-on experience developing robust full-stack web solutions, optimizing API latencies, and designing scalable SQL/NoSQL schemas. Proven ability to build secure authentication systems, integrate third-party payment gateways, and develop responsive frontend interfaces. Strong foundation in Object-Oriented Programming (OOP) principles, rapid prototyping, and version-controlled collaboration.",
     gpa: "CGPA: 7.72",
     resumeLink: "resume.html", // Points to the copied local HTML resume file
@@ -21,7 +21,7 @@ const profiles = {
       frontend: ["React.js", "Next.js (App Router)", "Responsive UI Design", "Figma Prototyping", "Vanilla CSS & HTML5"]
     },
     experience: {
-      role: "Software Engineering Intern",
+      role: "Artificial Intelligence Intern",
       company: "CodSoft",
       date: "June 2026 - June 2026",
       certLink: "https://drive.google.com/file/d/11BqwHcgQ6xSdrGNq6m_fzg6-Cg9ao299/view?usp=drive_link",
