@@ -21,7 +21,7 @@ const profiles = {
       frontend: ["React.js", "Next.js (App Router)", "Responsive UI Design", "Figma Prototyping", "Vanilla CSS & HTML5"]
     },
     experience: {
-      role: "Artificial Intelligence Intern",
+      role: "Software Engineering Intern",
       company: "CodSoft",
       date: "June 2026 - June 2026",
       certLink: "https://drive.google.com/file/d/11BqwHcgQ6xSdrGNq6m_fzg6-Cg9ao299/view?usp=drive_link",

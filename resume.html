@@ -441,7 +441,7 @@
             <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skills-row">
-                    <strong>Languages:</strong> <span>Python, SQL (Database Design), JavaScript (ES6+), HTML5, CSS3</span>
+                    <strong>Languages:</strong> <span>Python, JavaScript (ES6+), HTML5, CSS3, SQL (Fundamentals)</span>
                 </div>
                 <div class="skills-row">
                     <strong>AI & Machine Learning:</strong> <span>Generative AI (Gemini), PyTorch, Hugging Face, Computer Vision (OpenCV), Model Deployment</span>
@@ -453,10 +453,10 @@
                     <strong>Backend & APIs:</strong> <span>Node.js, Express.js, FastAPI, Next.js API Routes, WebSockets, JWT, Google OAuth</span>
                 </div>
                 <div class="skills-row">
-                    <strong>Database & Storage:</strong> <span>SQL (SQLite), NoSQL (MongoDB), Prisma ORM, Schema Design, Query Optimization</span>
+                    <strong>Database & Storage:</strong> <span>MongoDB, SQLite, Mongoose ODM, Prisma ORM, Database Schema Design</span>
                 </div>
                 <div class="skills-row">
-                    <strong>Tools & Ecosystem:</strong> <span>Git, GitHub, Vercel, Power BI (Fundamentals), Google Gemini API, VS Code, venv</span>
+                    <strong>Tools & Ecosystem:</strong> <span>Git, GitHub, Vercel, Razorpay API, Google Gemini API, VS Code, venv</span>
                 </div>
                 <div class="skills-row">
                     <strong>Core CS Concepts:</strong> <span>Data Structures & Algorithms (DSA), OOP, Software Development Life Cycle (SDLC)</span>
@@ -481,7 +481,7 @@
                 </div>
                 <ul class="experience-bullets">
                     <li><strong>Engineered</strong> a real-time face detection pipeline using PyTorch and OpenCV to verify user profiles and developed an unbeatable Tic-Tac-Toe AI utilizing the Minimax algorithm for optimal decision-making.</li>
-                    <li><strong>Built</strong> a content-based recommendation system in Node.js/Express by executing Cosine Similarity and Jaccard overlap algorithms on user preference datasets, and built a FastAPI/WebSockets streaming dashboard.</li>
+                    <li><strong>Built</strong> a content-based recommendation system in Node.js/Express (using Jaccard genre overlap and Cosine Similarity) and a low-latency webcam streaming dashboard in FastAPI using WebSockets with frame-rate backpressure.</li>
                     <li><strong>Optimized</strong> data efficiency by managing local SQLite database schemas and resolving local memory constraints by programmatically caching and routing large deep learning model files (~1GB+).</li>
                 </ul>
             </div>
@@ -512,6 +512,7 @@
             <div class="project-item">
                 <div class="project-header">
                     <span class="project-title">CiviVision – AI Civic Reporting Platform</span>
+                    <a href="https://civivision.vercel.app/" class="project-link" target="_blank">Live Demo 🔗</a>
                 </div>
                 <div style="margin-top: 3px; margin-bottom: 5px;">
                     <span class="project-tech">Next.js App Router, SQLite, Prisma ORM, Gemini API</span>
@@ -520,7 +521,7 @@
                     <li><strong>Architected and engineered</strong> the frontend using Next.js App Router with a premium glassmorphic UI, incorporating citizen profile hubs, gamified Swachh points tracking, and responsive admin dashboard feeds.</li>
                     <li><strong>Developed</strong> a serverless backend using Next.js API Route Handlers and Prisma ORM, structuring database schemas on SQLite to manage user roles (Citizen/Admin), active toilet tracker statuses, and post-resolution reviews.</li>
                     <li><strong>Implemented</strong> secure session tracking by storing JWT tokens inside secure, HttpOnly cookies (civi_session) and securing passwords with bcryptjs server-side hashing, preventing cross-site scripting (XSS) attacks.</li>
-                    <li><strong>Integrated the Google Gemini API</strong> via the @google/generative-ai SDK to clean and transform incoming report datasets, execute geospatial duplicate detection, and automate categorization workflows.</li>
+                    <li><strong>Integrated the Google Gemini API</strong> via the @google/generative-ai SDK to evaluate image authenticity, auto-categorize reports, assign SLA urgency weights, and execute geospatial duplicate detection checks.</li>
                 </ul>
             </div>
         </section>
